@@ -1,0 +1,32 @@
+locust --host=https://jsonplaceholder.typicode.com/todos/1
+
+
+locust -f locust_script.py �H https://jsonplaceholder.typicode.com
+
+//EXEC MEU SCRIPT
+locust -f locust_script.py --host=https://jsonplaceholder.typicode.com
+
+//IDENTITY
+locust -f identity.py --host=http://18.221.29.24:8010
+
+//LISTA ACOES
+http://18.217.128.123:8280/user_identity_service/1.0.0/actions
+
+
+https://petstore.swagger.io/v2/swagger.json
+
+
+//CADASTRO GE
+locust -f cadastro-ge-cria-instancia.py --host=http://admin:test@localhost:8080
+
+//CADASTRO FLUXO
+locust -f cadastro-ge-fluxo.py --host=http://admin:test@localhost:8080
+
+//CADASTRO GE T
+locust -f cadastro-ge-t.py --host=http://admin:test@localhost:8080
+
+
+//CADASTRO GE T
+locust -f poc.py --host=http://admin:test@localhost:8080
+
+
