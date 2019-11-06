@@ -25,8 +25,9 @@ locust -f cadastro-ge-fluxo.py --host=http://admin:test@localhost:8080
 //CADASTRO GE T
 locust -f cadastro-ge-t.py --host=http://admin:test@localhost:8080
 
-
 //CADASTRO GE T
 locust -f poc.py --host=http://admin:test@localhost:8080
+
+//PAULA
 
 

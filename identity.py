@@ -11,4 +11,4 @@ class ConverterTasks(TaskSet):
 class ApiUser(HttpLocust):
     task_set = ConverterTasks
     min_wait = 1000
-    max_wait = 3000
+    max_wait = 5000
